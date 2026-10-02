@@ -346,6 +346,16 @@ body {
   font-size: 1rem;
 }
 
+.page-section a {
+  color: var(--btn-bg);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.page-section a:hover {
+  text-decoration-thickness: 2px;
+}
+
 .page-section ol,
 .page-section ul {
   margin: 0 0 8px 1.25rem;

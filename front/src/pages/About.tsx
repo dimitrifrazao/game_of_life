@@ -6,18 +6,16 @@ export default function About() {
   return (
     <div className="page">
       <section className="page-section">
-        <h2>About this project</h2>
         <p>
-          {/* TODO: replace this with a description of the project. */}
-          A short description of what this app does and why it exists goes here.
+          Hi, my name is{" "}
+          <a href="https://dimitrifrazao.com/" target="_blank" rel="noreferrer">
+            Dimitri Frazao
+          </a>{" "}
+          and I'm a software engineer.
         </p>
-      </section>
-
-      <section className="page-section">
-        <h2>About me</h2>
         <p>
-          {/* TODO: replace this with your bio / contact links. */}
-          A short bio and contact links go here.
+          I created this Conway's game of life clone on my spare time to learn
+          more about C++, WASM and agentic AI.
         </p>
       </section>
     </div>
